@@ -4,6 +4,11 @@
   "description": "",
   "license": "RESERVED",
   "main": "dist/index.js",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "scripts": {
     "prettier": "prettier . --write",
     "build": "rimraf build && node ./scripts/build.js",
