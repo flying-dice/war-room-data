@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/flying-dice/war-room-data/compare/v1.5.0...v1.6.0) (2022-03-28)
+
+
+### Features
+
+* add static units ([430d285](https://github.com/flying-dice/war-room-data/commit/430d2852347fd122b9d22d3cbb3b30711385a979))
+
 # [1.5.0](https://github.com/flying-dice/war-room-data/compare/v1.4.0...v1.5.0) (2022-03-28)
 
 
