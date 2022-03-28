@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/flying-dice/war-room-data/compare/v1.2.1...v1.3.0) (2022-03-28)
+
+
+### Features
+
+* add base ([b194db0](https://github.com/flying-dice/war-room-data/commit/b194db0653338c9121b700fe5ac729b520eb9b1f))
+
 ## [1.2.1](https://github.com/flying-dice/war-room-data/compare/v1.2.0...v1.2.1) (2022-03-28)
 
 
