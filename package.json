@@ -34,16 +34,15 @@
     "type": "git",
     "url": "https://github.com/flying-dice/war-room-data.git"
   },
-  "dependencies": {
-    "csv": "^5.5.0",
-    "fs-extra": "^10.0.1",
-    "lodash": "^4.17.21",
-    "prettier": "^2.6.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "csv": "^5.5.0",
+    "fs-extra": "^10.0.1",
     "javascript-stringify": "^2.1.0",
+    "lodash": "^4.17.21",
+    "prettier": "^2.6.1",
     "rimraf": "^3.0.2",
     "semantic-release": "^19.0.2"
   }
