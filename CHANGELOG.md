@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/flying-dice/war-room-data/compare/v1.7.0...v1.7.1) (2022-03-28)
+
+
+### Bug Fixes
+
+* move all deps to devdeps ([02948fe](https://github.com/flying-dice/war-room-data/commit/02948fe96701dd0ca4168d858c9103d72563d603))
+
 # [1.7.0](https://github.com/flying-dice/war-room-data/compare/v1.6.0...v1.7.0) (2022-03-28)
 
 
