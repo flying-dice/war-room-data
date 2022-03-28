@@ -1,3 +1,8 @@
 id,name,symbol
 airbase,Airbase,installation:base:airbase
 navalbase,Naval Base,installation:base:navalbase
+navalbase,Naval Base,installation:base:navalbase
+mob, Main Operating Base,installation:base
+fob, Forward Operating Base,installation:base
+lob, Logistics Operating Base,installation:transport-facility
+cop, Combat Outpost,installation:base
