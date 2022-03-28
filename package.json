@@ -1,6 +1,6 @@
 {
-  "name": "war-room-data",
-  "version": "1.0.0",
+  "name": "@flying-dice/war-room-data",
+  "version": "0.1.0",
   "description": "",
   "license": "RESERVED",
   "main": "dist/index.js",
