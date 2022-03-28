@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/flying-dice/war-room-data/compare/v1.4.0...v1.5.0) (2022-03-28)
+
+
+### Features
+
+* new installation symbol ([41a17cb](https://github.com/flying-dice/war-room-data/commit/41a17cb3f609959f0cb20a0bbc8ac6b1cb7dbf69))
+
 # [1.4.0](https://github.com/flying-dice/war-room-data/compare/v1.3.0...v1.4.0) (2022-03-28)
 
 
