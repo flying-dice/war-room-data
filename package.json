@@ -1,18 +1,30 @@
 {
   "name": "@flying-dice/war-room-data",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "license": "RESERVED",
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "data"
+  ],
   "release": {
     "branches": [
       "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
     ]
   },
   "scripts": {
     "prettier": "prettier . --write",
     "build": "rimraf dist && node ./scripts/build.js",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --dry-run"
   },
   "publishConfig": {
     "access": "public",
@@ -29,6 +41,8 @@
     "prettier": "^2.6.1"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "javascript-stringify": "^2.1.0",
     "rimraf": "^3.0.2",
     "semantic-release": "^19.0.2"
