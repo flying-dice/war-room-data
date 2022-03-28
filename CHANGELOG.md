@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/flying-dice/war-room-data/compare/v1.3.0...v1.4.0) (2022-03-28)
+
+
+### Bug Fixes
+
+* remove duplicate ([5ad028c](https://github.com/flying-dice/war-room-data/commit/5ad028cc8807c51b914902b0e603f45b666e1509))
+
+
+### Features
+
+* additional installations ([7aafb37](https://github.com/flying-dice/war-room-data/commit/7aafb3786e4880df5a7849a2ce314d37a7f4002b))
+
 # [1.3.0](https://github.com/flying-dice/war-room-data/compare/v1.2.1...v1.3.0) (2022-03-28)
 
 
