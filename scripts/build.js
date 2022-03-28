@@ -41,7 +41,7 @@ writeFileSync(
   jsFiles
     .map((it) => {
       const key = it.replace(".js", "");
-      return `export const ${key} = require("${key}");`;
+      return `export const ${key} = require("./${key}");`;
     })
     .join("\n")
 );
