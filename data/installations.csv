@@ -1,7 +1,7 @@
 id,name,symbol
-airbase,Airbase,installation:base:airbase
-navalbase,Naval Base,installation:base:navalbase
-mob, Main Operating Base,installation:base
-fob, Forward Operating Base,installation:base
-lob, Logistics Operating Base,installation:transport-facility
-cop, Combat Outpost,installation:base
+base:air,Airbase,installation:base:airbase
+base:naval,Naval Base,installation:base:navalbase
+base:main,Main Operating Base,installation:base
+base:forward,Forward Operating Base,installation:base
+base:logistics,Logistics Operating Base,installation:transport-facility
+base:outpost,Combat Outpost,installation:base

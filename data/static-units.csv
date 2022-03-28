@@ -1,0 +1,5 @@
+id,name,symbol
+air-defense:radar,Air Defense - Radar,unit:combat:air-defense:targeting-unit
+air-defense:missile,Air Defense - Missile,unit:combat:air-defense:air-defense-missile
+air-defense:gun,Air Defense - Gun,unit:combat:air-defense:gun
+coastal-defense:gun,Coastal Defense - Gun,unit:combat:field-artillery
