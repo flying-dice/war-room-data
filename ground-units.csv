@@ -1,0 +1,5 @@
+id,name,symbol
+infantry,Infantry,unit:combat:infantry
+infantry-motorized,Motorized Infantry,unit:combat:infantry:infantry-motorized
+infantry-mechanized,Mechanized Infantry,unit:combat:infantry:infantry-mechanized
+armor,Armor,unit:combat:armor
