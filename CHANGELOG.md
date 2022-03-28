@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/flying-dice/war-room-data/compare/v1.6.0...v1.7.0) (2022-03-28)
+
+
+### Features
+
+* add additional installations ([0cb2c9b](https://github.com/flying-dice/war-room-data/commit/0cb2c9b9800bc7c6fb401848832e5b73f03e3993))
+
 # [1.6.0](https://github.com/flying-dice/war-room-data/compare/v1.5.0...v1.6.0) (2022-03-28)
 
 
