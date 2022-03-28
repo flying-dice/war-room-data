@@ -4,6 +4,6 @@ unit:combat:infantry,Infantry Unit,UCI---
 unit:combat:infantry:infantry-motorized,Motorized Infantry Unit,UCIM--
 unit:combat:infantry:infantry-mechanized,Mechanized Infantry Unit,UCIZ--
 unit:combat:armor,Armor Unit,UCA---
-installation,Installation,I-----H
-installation:base:airbase,Airbase,IBA---H
-installation:base:navalbase,Naval Base,IBN---H
+installation,Installation,I-----
+installation:base:airbase,Airbase,IBA---
+installation:base:navalbase,Naval Base,IBN---
