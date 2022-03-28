@@ -1,0 +1,25 @@
+{
+  "name": "war-room-data",
+  "version": "1.0.0",
+  "description": "",
+  "license": "RESERVED",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf build && node ./scripts/build.js",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flying-dice/war-room-data.git"
+  },
+  "dependencies": {
+    "csv": "^5.5.0",
+    "fs-extra": "^10.0.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "javascript-stringify": "^2.1.0",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.2"
+  }
+}
