@@ -1,7 +1,16 @@
 id,name,symbol
-base:air,Airbase,installation:base:airbase
+base:air,Air Base,installation:base:airbase
 base:naval,Naval Base,installation:base:navalbase
-base:main,Main Operating Base,installation:base
-base:forward,Forward Operating Base,installation:base
-base:logistics,Logistics Operating Base,installation:transport-facility
-base:outpost,Combat Outpost,installation:base
+base:main,Base (Main),installation:base
+base:forward,Base (Forward),installation:base
+base:logistics,Base (Logistics),installation:transport-facility
+base:outpost,Base (Outpost),installation:base
+gov:main,Government (Central),installation:government
+gov:local,Government (Regional),installation:government
+civil:bridge,Bridge,installation:bridge
+power,Power,installation:power
+power:nuclear,Power (Nuclear),installation:power:nuclear
+power:dam,Power (Dam),installation:power:dam
+industry,Industry,installation:industry
+industry:oil,Industry (Oil),installation:industry:oil
+industry:nuclear,Industry (Nuclear),installation:industry:nuclear

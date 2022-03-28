@@ -14,3 +14,12 @@ installation:base,IB----
 installation:base:airbase,IBA---
 installation:base:navalbase,IBN---
 installation:transport-facility,IT----
+installation:government,IG----
+installation:bridge,IMNB--
+installation:industry,IR----
+installation:industry:oil,IRP---
+installation:industry:nuclear,IRNN--
+installation:power,IUE---
+installation:power:nuclear,IUEN--
+installation:power:dam,IUED--
+installation:power:fossil,IUEF--
