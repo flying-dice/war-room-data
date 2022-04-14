@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/flying-dice/war-room-data/compare/v1.7.1...v1.8.0) (2022-04-14)
+
+
+### Features
+
+* use ts intermediate build ([9480a78](https://github.com/flying-dice/war-room-data/commit/9480a783587563159184779cd21235086280f646))
+
 ## [1.7.1](https://github.com/flying-dice/war-room-data/compare/v1.7.0...v1.7.1) (2022-03-28)
 
 
