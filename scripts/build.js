@@ -6,7 +6,7 @@ const { ensureDirSync } = require("fs-extra");
 const { stringify } = require("javascript-stringify");
 
 const SRC = resolve(__dirname, "../data");
-const DEST = resolve(__dirname, "../dist");
+const DEST = resolve(__dirname, "../build");
 
 ensureDirSync(DEST);
 
@@ -21,13 +21,16 @@ const parseCsv = (csvString) =>
 const mapRow = (arr) =>
   map(arr, (it) => transform(it, (r, v, k) => (r[camelCase(k)] = v)));
 
-const prettyPrint = (obj) => `module.exports = ${stringify(obj, null, 2)}`;
+const prettyPrint = (obj) => stringify(obj, null, 2);
 
 const convertCsvToJs = (file) => {
-  const destFile = resolve(DEST, `${camelCase(parse(file).name)}.js`);
+  const name = camelCase(parse(file).name);
+  const destFile = resolve(DEST, `${name}.ts`);
   writeFileSync(
     destFile,
-    flow([readFile, parseCsv, mapRow, prettyPrint])(file)
+    `export const ${name} = ${flow([readFile, parseCsv, mapRow, prettyPrint])(
+      file
+    )}`
   );
 };
 
@@ -37,11 +40,11 @@ files.forEach(convertCsvToJs);
 
 const jsFiles = readdirSync(DEST);
 writeFileSync(
-  resolve(DEST, `index.js`),
+  resolve(DEST, `index.ts`),
   jsFiles
     .map((it) => {
-      const key = it.replace(".js", "");
-      return `export const ${key} = require("./${key}");`;
+      const key = it.replace(".ts", "");
+      return `export * from "./${key}";`;
     })
     .join("\n")
 );
