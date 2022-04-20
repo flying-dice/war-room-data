@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/flying-dice/war-room-data/compare/v1.8.0...v1.9.0) (2022-04-14)
+
+
+### Features
+
+* **symbols:** add dimension, schema, modifier1, modifier2 ([c61c368](https://github.com/flying-dice/war-room-data/commit/c61c368a2b94a00eac000ff7baaf0295414ac8fa))
+
 # [1.8.0](https://github.com/flying-dice/war-room-data/compare/v1.7.1...v1.8.0) (2022-04-14)
 
 
