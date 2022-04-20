@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/flying-dice/war-room-data/compare/v1.9.0...v1.10.0) (2022-04-20)
+
+
+### Features
+
+* keep build folder for srcmaps ([d6d0b93](https://github.com/flying-dice/war-room-data/commit/d6d0b930c66a3b0132bfb09810cd02746bdc85ec))
+
 # [1.9.0](https://github.com/flying-dice/war-room-data/compare/v1.8.0...v1.9.0) (2022-04-14)
 
 
