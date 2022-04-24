@@ -1,9 +1,9 @@
 id,function,dimension,scheme,modifier1,modifier2
-unit,U-----,G,S,-,H
-unit:combat:infantry,UCI---,G,S,-,H
-unit:combat:infantry:infantry-motorized,UCIM--,G,S,-,H
-unit:combat:infantry:infantry-mechanized,UCIZ--,G,S,-,H
-unit:combat:armor,UCA---,G,S,-,H
+unit,U-----,G,S,-,F
+unit:combat:infantry,UCI---,G,S,-,F
+unit:combat:infantry:infantry-motorized,UCIM--,G,S,-,F
+unit:combat:infantry:infantry-mechanized,UCIZ--,G,S,-,F
+unit:combat:armor,UCA---,G,S,-,F
 unit:combat:air-defense:air-defense-missile,UCDM--,G,S,-,E
 unit:combat:air-defense:targeting-unit,UCDT--,G,S,-,E
 unit:combat:air-defense:gun,UCDG--,G,S,-,E
