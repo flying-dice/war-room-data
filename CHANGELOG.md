@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/flying-dice/war-room-data/compare/v1.10.0...v1.11.0) (2022-04-24)
+
+
+### Features
+
+* replace brigade with battalion ([4c921c7](https://github.com/flying-dice/war-room-data/commit/4c921c7226c96438a398411e14bc0d8de057364c))
+
 # [1.10.0](https://github.com/flying-dice/war-room-data/compare/v1.9.0...v1.10.0) (2022-04-20)
 
 
